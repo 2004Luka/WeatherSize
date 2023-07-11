@@ -1,0 +1,32 @@
+@media screen and (max-width:700px){
+    #Container{
+        display: flex;
+        flex-direction: column;
+    }
+    #CurrentDiv{
+        align-items: center;
+        display: flex; flex-direction: column;
+        padding-left: 0;
+    }
+    #RightDiv{
+        justify-content: center;
+        align-items: end;
+    }
+    #RightDiv #A{
+        margin-right: 0;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:640px){
+    
+    .Weather{
+        
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .text1{
+        margin-left: 0vh;
+    }
+    
+}
